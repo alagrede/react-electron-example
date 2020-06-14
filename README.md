@@ -27,9 +27,8 @@ see: [electron-builder icons](https://www.electron.build/icons)
 **icns**
 ```
 cd assets/bin
-python3 ../../generate-iconset.py icon.png
+python3 ../../scripts/generate-iconset.py icon.png
 ```
-link: ```https://github.com/alagrede/python-scripts/tree/master/generate-iconset```
 
 ### Win
 **ico** (with imagemagick `brew install imagemagick`)
