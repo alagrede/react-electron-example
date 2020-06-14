@@ -37,3 +37,10 @@ cd assets/bin/icon.iconset
 convert icon_16x16.png icon_32x32.png icon_64x64.png icon_128x128.png icon_256x256.png icon.ico
 mv icon.ico ../
 ```
+
+## Auto update
+see [electron update](https://www.electronjs.org/docs/tutorial/updates)
+Currently a 1.0.0 release is deployed for demo
+* set package.json `version: 0.9.0`
+* Build and install app with dmg
+* Once app is installed, wait update popup and restart app 
